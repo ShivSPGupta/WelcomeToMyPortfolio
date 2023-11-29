@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {FaBars , FaReact} from 'react-icons/fa';
 import {HiX} from 'react-icons/hi'
 import {Link} from 'react-router-dom';
+import './styles.scss';
 
 const data = [
     {
@@ -47,7 +48,7 @@ export default function Navbar() {
             </Link>
 
             </div>
-            <ul className='navbar__container__menu'>
+            <ul className={`navbar__container__menu ${toggleIcon ? 'active' : ''}`}>
             {
                 data.map((item, key)=> (
                     <li key={key} className='navbar__container__menu__item'>
