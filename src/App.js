@@ -7,11 +7,19 @@ import Portfolio from './containers/portfolio';
 import Resume from './containers/resume';
 import Skills from './containers/skills';
 import Navbar from './components/NavBar';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import particles from './utils/particles';
 
 function App() {
+
+  const handleInit = async (main)=>{
+    await loadFull(main)
+  }
   return (
     <div className="App">
     {/* particles js */}
+    <Particles id='particles' options={particles} init={handleInit}/>
 
     {/* navbar */}
     <Navbar/>
