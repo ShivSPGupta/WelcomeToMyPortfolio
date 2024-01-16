@@ -1,10 +1,18 @@
 import React from 'react';
+import './styles.scss';
 
 const Home=()=>{
     return(
-        <div>
-            Home Page
+        <section id='home' className='home'>
+        <div className='home__text-wrapper'>
+            <h1>
+                Hello, I'm Shiv Shankar
+                <br/>
+                Front end developer
+            </h1>
         </div>
+
+        </section>
     )
 }
 
