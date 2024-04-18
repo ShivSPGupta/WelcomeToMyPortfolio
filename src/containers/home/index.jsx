@@ -17,7 +17,7 @@ const Home=()=>{
             <h1>
                 Hello, I'm Shiv Shankar
                 <br/>
-                Front end developer
+                Front End Developer
             </h1>
         </div>
         <Animate play duration={1.5} delay={1} 

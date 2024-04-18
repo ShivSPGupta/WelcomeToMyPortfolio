@@ -2,6 +2,8 @@ import React from 'react';
 import PageHeaderContent from '../../components/PageHeaderContent';
 import { BsInfoCircleFill } from 'react-icons/bs';
 
+
+
 const Portfolio=()=>{
     return(
         <section id='portfolio' className='portfolio'>
