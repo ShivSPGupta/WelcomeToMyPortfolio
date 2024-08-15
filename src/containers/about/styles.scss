@@ -41,7 +41,7 @@
                     position: relative;
                     display: inline-block;
                     margin-right: 16px;
-                    padding-bottom: 1px;
+                    padding-bottom: 5px;
                     color: var(--yellow-theme-sub-text-color);
 
                 }
@@ -49,6 +49,70 @@
                 span.value{
                     border: none;
                 }
+            }
+        }
+        &__servicesWrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__innerContent{
+                width: 350px;
+                height: 350px;
+                background: radial-gradient(180px, var(--yellow-theme-main-color), transparent 90%);
+                position: relative;
+                border-radius: 50%;
+                border: 1.5px solid var(--yellow-theme-main-color);
+                animation: rotation 10s linear 1s infinite;
+
+                div:nth-child(1){
+                    position: absolute;
+                    top: -9%;
+                    left: 41%;
+                }
+
+                div:nth-child(2){
+                    position: absolute;
+                    right: -10%;
+                    top: 41.5%;
+
+                }
+
+                div:nth-child(3){
+                    position: absolute;
+                    bottom: -10%;
+                    left: 41%;
+                }
+
+                div:nth-child(4){
+                    position: absolute;
+                    left: -8%;
+                    top: 41%;
+                }
+            }
+        }
+    }
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .about__content{
+        flex-direction: column;
+
+        &__personalWrapper, &__servicesWrapper {
+            width: 50%;
+        }
+
+        &__servicesWrapper{
+            margin: 10px 0px;
+            &__innerContent{
+                width: 250px;
+                height: 250px;
+                background: radial-gradient(100px, var(--yellow-theme-main-color),transparent 120%);
             }
         }
     }
