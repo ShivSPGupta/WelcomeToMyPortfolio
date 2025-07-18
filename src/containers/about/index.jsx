@@ -3,7 +3,7 @@ import PageHeaderContent from '../../components/PageHeaderContent';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { Animate } from 'react-simple-animate';
 import './styles.scss';
-import { DiApple, DiAndroid, DiReact } from 'react-icons/di'
+import { DiAndroid, DiReact } from 'react-icons/di'
 import { FaDev, FaDatabase } from 'react-icons/fa'
 
 
