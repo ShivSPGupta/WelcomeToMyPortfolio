@@ -15,9 +15,9 @@ const Home=()=>{
         <section id='home' className='home'>
         <div className='home__text-wrapper'>
             <h1>
-                Hello, I'm Shiv Shankar
+                Hi, I'm Shiv Shankar
                 <br/>
-                Front End Developer
+                Front End Developer / Web Developer
             </h1>
         </div>
         <Animate play duration={1.5} delay={1} 

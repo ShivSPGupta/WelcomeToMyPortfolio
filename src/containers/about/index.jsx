@@ -10,15 +10,15 @@ import { FaDev, FaDatabase } from 'react-icons/fa'
 const personalDetails = [
     {
         label: "Name",
-        value: "John Doe",
+        value: "Shiv Shankar Prasad Gupta",
     },
     {
         label: "Age",
-        value: "27",
+        value: "28",
     },
     {
         label: "Address",
-        value: "India",
+        value: "Ghazipur,UP, India",
     },
     {
         label: "Email",
