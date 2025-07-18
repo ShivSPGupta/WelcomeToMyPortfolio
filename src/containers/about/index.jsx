@@ -3,7 +3,7 @@ import PageHeaderContent from '../../components/PageHeaderContent';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { Animate } from 'react-simple-animate';
 import './styles.scss';
-import { DiApple, DiAndroid } from 'react-icons/di'
+import { DiApple, DiAndroid, DiReact } from 'react-icons/di'
 import { FaDev, FaDatabase } from 'react-icons/fa'
 
 
@@ -88,9 +88,9 @@ const About = () => {
                         <div>
                             <FaDev size={60} color='var( --yellow-theme-main-color)' />
                         </div>
-                        <div><DiAndroid size={60} color='var( --yellow-theme-main-color)' /></div>
+                        <div><DiReact size={70} color='var( --yellow-theme-main-color)' /></div>
                         <div><FaDatabase size={60} color='var( --yellow-theme-main-color)' /></div>
-                        <div><DiApple size={60} color='var( --yellow-theme-main-color)' /></div>
+                        <div><DiAndroid size={60} color='var( --yellow-theme-main-color)' /></div>
                     </div>
                     </Animate>
 
